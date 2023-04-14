@@ -1,0 +1,16 @@
+{
+  "name": "chatgpt-app",
+  "version": "1.0.0",
+  "description": "Aplicación de ejemplo usando ChatGPT y Elasticsearch",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.0",
+    "openai": "^3.0.0",
+    "sequelize": "^6.7.0"
+  }
+}
